@@ -63,4 +63,4 @@ def runner
   welcome
 end
 
-runner
+p runner
