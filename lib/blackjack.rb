@@ -39,7 +39,7 @@ def hit?(card_total)
   # code hit? here
   prompt_user
   x = get_user_input.to_s
-  puts x
+  puts "print"
   # if x != "h" || x != "s"
   #   invalid_command
   #   hit?(card_total)
