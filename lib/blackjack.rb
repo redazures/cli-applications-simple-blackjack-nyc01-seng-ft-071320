@@ -44,8 +44,6 @@ def hit?(card_total)
     hit?(card_total)
   elsif x=="h"
     card_total=card_total+deal_card
-  else
-    card_total
   end
   display_card_total(card_total)
   card_total
