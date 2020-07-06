@@ -66,3 +66,5 @@ def runner
     display_card_total(card_total)
   end
 end
+
+p runner
