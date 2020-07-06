@@ -57,3 +57,5 @@ def runner
   # code runner here
   welcome
 end
+
+hit?(10)
