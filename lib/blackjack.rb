@@ -42,7 +42,7 @@ def hit?(card_total)
   if x= "s"
     return card_total
   elsif x= "h"
-    return card_total=card_total+deal_card
+    card_total=card_total+deal_card
   else
     hit?(card_total)
   end
