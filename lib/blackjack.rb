@@ -63,4 +63,4 @@ def runner
   welcome
 end
 
-p runner
+p hit?(20)
