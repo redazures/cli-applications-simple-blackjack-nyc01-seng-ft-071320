@@ -40,8 +40,9 @@ def hit?(card_total)
   prompt_user
   puts "Type 'h' to hit or 's' to stay"
   x = get_user_input.to_s
-  if x != "h" && x != "s"
+  while x != "h" && x != "s"
     invalid_command
+    puts "Type 'h' to hit or 's' to stay"
     hit?(card_total)
   elsif x=="h"
     card_total=card_total+deal_card
