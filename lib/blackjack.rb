@@ -38,6 +38,7 @@ end
 def hit?(card_total)
   # code hit? here
   prompt_user
+  puts "Type 'h' to hit or 's' to stay"
   x = get_user_input.to_s
   if x != "h" && x != "s"
     invalid_command
