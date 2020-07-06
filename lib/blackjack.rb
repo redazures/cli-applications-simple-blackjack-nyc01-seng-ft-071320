@@ -65,4 +65,3 @@ def runner
   welcome
 end
 
-hit?(10)
