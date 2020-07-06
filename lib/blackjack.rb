@@ -39,15 +39,14 @@ def hit?(card_total)
   # code hit? here
   prompt_user
   x = get_user_input.to_s
-  puts "print" if x != "h" && x != "s"
-  # if x != "h" || x != "s"
-  #   invalid_command
-  #   hit?(card_total)
-  # elsif x=="h"
-  #   card_total=card_total+deal_card
-  # else
-  #   card_total
-  # end
+  if x != "h" && x != "s"
+    invalid_command
+    hit?(card_total)
+  elsif x=="h"
+    card_total=card_total+deal_card
+  else
+    card_total
+  end
   display_card_total(card_total)
   card_total
 end
